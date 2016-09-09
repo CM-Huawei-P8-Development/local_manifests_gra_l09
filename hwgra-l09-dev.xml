@@ -7,15 +7,23 @@
   <!-- Remove useless repos -->
   <remove-project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" />
   <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
+  <remove-project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   
   <!-- Modified sepolicy -->
-  <project name="nexolight/gra_l09_android_external_sepolicy" path="external/sepolicy" revision="stable/cm-13.0-ZNH5Y" remote="github" />
+  <project name="nexolight/gra_l09_android_external_sepolicy" path="external/sepolicy" revision="cm-13.0-ZNH5Y-testing" remote="github" />
   
   <!-- Modified framework base -->
-  <project name="nexolight/gra_l09_android_frameworks_base" path="frameworks/base" revision="stable/cm-13.0-ZNH5Y" remote="github" />
+  <project name="nexolight/gra_l09_android_frameworks_base" path="frameworks/base" revision="cm-13.0-ZNH5Y-testing" remote="github" />
+
+  <!-- Modified framework native -->
+  <project name="nexolight/gra_l09_android_frameworks_native" path="frameworks/native" revision="cm-13.0-ZNH5Y-testing" remote="github" />
+
+  <!-- Modified libhardware -->
+  <project name="nexolight/gra_l09_android_hardware_libhardware" path="hardware/libhardware" revision="cm-13.0-ZNH5Y-testing" remote="github" />
 
   <!-- Files to build the rom  -->
-  <project name="nexolight/gra_l09_device_huawei_gra_l09" path="device/huawei/hwgra" revision="cm-13.0" remote="github" />
+  <project name="nexolight/gra_l09_device_huawei_gra_l09" path="device/huawei/hwgra" revision="testing" remote="github" />
   <project name="nexolight/gra_l09_kernel_huawei_gra_l09" path="kernel/huawei/kernel" revision="cm-13.0" remote="github" />
   
   <!-- TWRP -->
