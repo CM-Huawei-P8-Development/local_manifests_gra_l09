@@ -21,7 +21,7 @@
   <project name="nexolight/gra_l09_android_frameworks_base" path="frameworks/base" revision="cm-13.0-ZNH5Y-testing" remote="github" />
 
   <!-- Modified framework native -->
-  <project name="nexolight/gra_l09_android_frameworks_native" path="frameworks/native" revision="cm-13.0-ZNH5Y-testing" remote="github" />
+  <project name="nexolight/gra_l09_android_frameworks_native" path="frameworks/native" revision="cm-13.0-ZNH5Y" remote="github" />
 
   <!-- Modified libhardware -->
   <project name="nexolight/gra_l09_android_hardware_libhardware" path="hardware/libhardware" revision="cm-13.0-ZNH5Y-testing" remote="github" />
