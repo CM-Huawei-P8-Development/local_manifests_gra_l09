@@ -3,16 +3,11 @@
 <manifest>
   
   <remote name="github_ssh" fetch="ssh://git@github.com" />
-
-  <!-- Remove useless repos -->
-  <remove-project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" />
-
-  <!-- Modified sepolicy -->
-  <project name="nexolight/gra_l09_android_external_sepolicy" path="external/sepolicy" revision="cm-13.0-ZNH5Y-testing" remote="github" />
  
   <!-- Files to build the rom  -->
   <project name="nexolight/gra_l09_device_huawei_gra_l09" path="device/huawei/hwgra" revision="testing" remote="github" />
-  <project name="nexolight/gra_l09_kernel_huawei_gra_l09" path="kernel/huawei/kernel" revision="cm-13.0" remote="github" />
+  <project name="nexolight/gra_l09_kernel_huawei_gra_l09" path="kernel/huawei/kernel" revision="android6.0-testing" 
+remote="github" />
   
   <!-- TWRP -->
   <project name="nexolight/gra_l09_team_win_recovery_project" path="bootable/recovery-twrp" revision="android-6.0" remote="github" />
