@@ -23,3 +23,8 @@ Optionally we may add [-any name] for feature branches.
 For ´kernels´ we use cm-<major cm version>-<kernel-version>[-any name when tweaked].
 
 **A.e. ´cm-13-v3.10.61´ or ´cm-13-v3.10.61-xmod´.**
+
+
+The device trees itself should be named the same way as in the 
+official cyanogenmod repository. However we may add [_device]
+(gra_l09/gra_ul00) in case it's device specific.
