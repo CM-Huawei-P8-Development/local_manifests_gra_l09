@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-  
-  <remote name="github_ssh" fetch="ssh://git@github.com" />
  
   <!-- Files to build the rom  -->
-  <project name="nexolight/gra_l09_device_huawei_gra_l09" path="device/huawei/hwgra" revision="testing" remote="github" />
-  <project name="nexolight/gra_l09_kernel_huawei_gra_l09" path="kernel/huawei/kernel" revision="android6.0-testing" 
-remote="github" />
+  <project name="CM-Huawei-P8-Development/device_gra_l09" path="device/huawei/hwgra" revision="cm-13.0-ZNH5Y" remote="github" />
+  <project name="CM-Huawei-P8-Development/kernel" path="kernel/huawei/kernel" revision="cm-13-v3.10.86-ndk" remote="github" />
   
   <!-- TWRP -->
-  <project name="nexolight/gra_l09_team_win_recovery_project" path="bootable/recovery-twrp" revision="android-6.0" remote="github" />
+  <project name="CM-Huawei-P8-Development/team_win_recovery_project" path="bootable/recovery-twrp" revision="android-6.0" remote="github" />
 
   <!-- BusyBox -->
-  <project name="nexolight/gra_l09_busybox" path="external/busybox" remote="github" revision="master" />  
+  <project name="CM-Huawei-P8-Development/busybox" path="external/busybox" remote="github" revision="cm-13.0-ZNH5Y" />  
   
 </manifest>
