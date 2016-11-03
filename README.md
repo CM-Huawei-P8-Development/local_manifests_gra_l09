@@ -13,12 +13,19 @@
 To avoid confusion here's a simple policy for naming the branches.
 
 
-For `device trees` and forks of the `cyanogenmod repository`
+For forks of the `cyanogenmod repository`
 We use the same branch names for one **build set**.
 Optionally we may add `[-any name]` for feature branches.
 
 **A.e. `cm-13.0-ZNH5Y` or `cm-13.0-ZNH5Y-testing`**
 
+The forked repositories itself should be named the same way as in the 
+official cyanogenmod repository. However we may add `[_device]`
+gra_l09/gra_ul00 in case it's device specific. Most likely 
+the manifest and device tree.
+
+The branch names of the device tree should be the same as for
+the rest of the **build set**
 
 For `kernels` we use `cm-<major cm version>-<kernel-version>[-any name when 
 tweaked]`.
@@ -27,8 +34,3 @@ tweaked]`.
 
 
 For maintained `3th party`. A.e. TWRP we use their branch name
-
-
-The device trees itself should be named the same way as in the 
-official cyanogenmod repository. However we may add `[_device]`
-gra_l09/gra_ul00 in case it's device specific.
