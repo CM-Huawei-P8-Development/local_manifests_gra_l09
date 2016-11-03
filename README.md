@@ -19,6 +19,7 @@ Optionally we may add `[-any name]` for feature branches.
 
 **A.e. `cm-13.0-ZNH5Y` or `cm-13.0-ZNH5Y-testing`**
 
+
 The forked repositories itself should be named the same way as in the 
 official cyanogenmod repository. However we may add `[_device]`
 gra_l09/gra_ul00 in case it's device specific. Most likely 
@@ -26,6 +27,7 @@ the manifest and device tree.
 
 The branch names of the device tree should be the same as for
 the rest of the **build set**
+
 
 For `kernels` we use `cm-<major cm version>-<kernel-version>[-any name when 
 tweaked]`.
