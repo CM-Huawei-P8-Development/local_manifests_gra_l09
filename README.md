@@ -28,8 +28,11 @@ the rest of the **build set**
 
 ---
 
-For `kernels` we use `cm-<major cm version>-v<kernel-version>[-any name when 
-tweaked]`.
+For `kernels` we use 
+`cm-<major cm version>-v<kernel-version>[-any name when tweaked]`.
+We include the cm version since the official UPDATE.APP
+includes more than just that what we build and this stuff depends
+on the major android version.
 
 **A.e. `cm-13-v3.10.61` or `cm-13-v3.10.61-xmod`.**
 
