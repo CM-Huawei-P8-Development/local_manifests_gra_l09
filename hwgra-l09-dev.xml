@@ -11,5 +11,10 @@
 
   <!-- BusyBox -->
   <project name="CM-Huawei-P8-Development/busybox" path="external/busybox" remote="github" revision="cm-13.0-ZNH5Y" />  
+
+  <!-- Opensource NFC -->
+  <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" revision="cm-13.0-ZNH5Y" />
+  <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" revision="cm-13.0-ZNH5Y" />
+  <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" revision="cm-13.0-ZNH5Y" />
   
 </manifest>
