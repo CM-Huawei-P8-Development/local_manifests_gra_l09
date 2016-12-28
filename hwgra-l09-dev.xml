@@ -3,7 +3,7 @@
 <manifest>
  
   <!-- Files to build the rom  -->
-  <project name="CM-Huawei-P8-Development/device_gra_l09" path="device/huawei/hwgra" revision="feature-nfc" remote="github" />
+  <project name="CM-Huawei-P8-Development/device_gra_l09" path="device/huawei/hwgra" revision="cm-13.0-ZNH5Y" remote="github" />
   <project name="CM-Huawei-P8-Development/kernel" path="kernel/huawei/kernel" revision="cm-13-v3.10.86-ndk" remote="github" />
   
   <!-- TWRP -->
