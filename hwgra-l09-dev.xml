@@ -14,10 +14,11 @@
 
   <!-- Opensource NFC -->
   <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" revision="stable/cm-13.0-ZNH5Y" />
-  <project name="CM-Huawei-P8-Development/vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" revision="cm-13.0-ZNH5Y" />
+  <project name="CM-Huawei-P8-Development/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" revision="stable/cm-13.0-ZNH5Y" />
   <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" revision="stable/cm-13.0-ZNH5Y" />
   
   <!-- sepolicy -->
-  <project name="CM-Huawei-P8-Development/android_external_sepolicy" path="external/sepolicy" remote="github" revision="cm-13.0-ZNH5Y" />
+  <remove-project name="CyanogenMod/android_external_sepolicy" />
+  <project name="CM-Huawei-P8-Development/android_external_sepolicy" path="external/sepolicy" remote="github" revision="stable/cm-13.0-ZNH5Y" />
 
 </manifest>
