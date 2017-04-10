@@ -3,7 +3,7 @@
 <manifest>
  
   <!-- Files to build the rom  -->
-  <project name="CM-Huawei-P8-Development/device_gra_l09" path="device/huawei/hwgra" revision="cm-13.0-ZNH5Y" remote="github" />
+  <project name="CM-Huawei-P8-Development/device_gra_l09" path="device/huawei/hwgra" revision="lineage-14.1" remote="github" />
   <project name="CM-Huawei-P8-Development/kernel" path="kernel/huawei/kernel" revision="cm-13-v3.10.86-ndk" remote="github" />
   
   <!-- TWRP -->
@@ -13,12 +13,13 @@
   <project name="CM-Huawei-P8-Development/busybox" path="external/busybox" remote="github" revision="cm-13.0-ZNH5Y" />  
 
   <!-- Opensource NFC -->
-  <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" revision="stable/cm-13.0-ZNH5Y" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" revision="cm-14.1" />
   <project name="CM-Huawei-P8-Development/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" revision="stable/cm-13.0-ZNH5Y" />
-  <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" revision="stable/cm-13.0-ZNH5Y" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" revision="cm-14.1" />
   
   <!-- sepolicy -->
-  <remove-project name="CyanogenMod/android_external_sepolicy" />
+  <!--
+  <remove-project name="LineageOS/android_external_sepolicy" />
   <project name="CM-Huawei-P8-Development/android_external_sepolicy" path="external/sepolicy" remote="github" revision="stable/cm-13.0-ZNH5Y" />
-
+  -->
 </manifest>
