@@ -4,7 +4,7 @@
  
   <!-- Files to build the rom  -->
   <project name="CM-Huawei-P8-Development/device_gra_l09" path="device/huawei/hwgra" revision="lineage-14.1" remote="github" />
-  <project name="CM-Huawei-P8-Development/kernel" path="kernel/huawei/kernel" revision="cm-13-v3.10.86-ndk" remote="github" />
+  <project name="CM-Huawei-P8-Development/kernel" path="kernel/huawei/kernel" revision="lineage-14.1" remote="github" />
   
   <!-- TWRP -->
   <project name="CM-Huawei-P8-Development/team_win_recovery_project" path="bootable/recovery-twrp" revision="android-6.0" remote="github" />
