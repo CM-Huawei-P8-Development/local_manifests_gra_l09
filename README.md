@@ -1,10 +1,10 @@
-# Huawei Ascend P8 CM Manifest
+# Huawei Ascend P8 Lineage Manifest
 
 ## Instructions
-- repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+- repo init -u git://github.com/LineageOS/android.git -b cm-14.1
 - repo sync
-- repo init -b stable/cm-13.0-ZNH5Y
-- git clone gra_l09_local_manifests --> .repo/local_manifests
+- repo init -b cm-14.1
+- git clone -b 14.1 gra_l09_local_manifests --> .repo/local_manifests
 - repo sync --force-sync (use python 2.7!)
 
 
