@@ -1,4 +1,4 @@
-# Huawei Ascend P8 CM Manifest
+# Huawei Ascend P8 LineageOS Manifest
 
 ## Instructions
 - repo init -u git://github.com/LineageOS/android.git -b cm-13.0
